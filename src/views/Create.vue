@@ -2,13 +2,13 @@
   <div class="view-wrapper-content">
     <svg ref="svgCard" viewBox="0 0 200 100" class="svgarea">
       <rect x="0" y="0" width="200" height="100" fill="#fff" stroke="#000000" stroke-width="10" />
-      <text font-weight="bold" dominant-baseline="text-before-edge">
-        <tspan font-size="10px" x="15" y="8">{{text1}}</tspan>
-        <tspan font-size="8px" x="15" y="20">で、</tspan>
-        <tspan font-size="10px" x="15" y="35">{{text3}}</tspan>
-        <tspan font-size="10px" x="15" y="50">{{text4}}</tspan>
-        <tspan font-size="10px" x="15" y="65">{{text5}}</tspan>
-        <tspan font-size="8px" x="15" y="80">を見た。</tspan>
+      <text font-family="sans-serif" font-weight="bold" dominant-baseline="middle">
+        <tspan font-size="10px" x="15" y="15">{{text1}}</tspan>
+        <tspan font-size="8px" x="15" y="28">で、</tspan>
+        <tspan font-size="10px" x="15" y="43">{{text3}}</tspan>
+        <tspan font-size="10px" x="15" y="58">{{text4}}</tspan>
+        <tspan font-size="10px" x="15" y="73">{{text5}}</tspan>
+        <tspan font-size="8px" x="15" y="88">を見た。</tspan>
       </text>
       <image
         xmlns="http://www.w3.org/2000/svg"
@@ -186,6 +186,9 @@ form {
 }
 .btn-dark {
   width: 100%;
+}
+svg {
+  transform-box: fill-box;
 }
 </style>
 
